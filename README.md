@@ -29,5 +29,3 @@ A machine learning project that predicts California house prices based on variou
 
 - Achieved **80%+ R² Score** using a tuned Random Forest Regressor with scaled features.
 
-## 📂 Project Structure
-
