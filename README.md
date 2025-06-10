@@ -1,8 +1,8 @@
-# ðŸ¡ California House Prices â€“ ML Prediction
+# 🏡 California House Prices – ML Prediction
 
 This repository contains a Jupyter Notebook that predicts California housing prices using machine learning models.
 
-## ðŸ”§ Setup Instructions
+## 🔧 Setup Instructions
 
 1. **Clone this repository**
    ```bash
@@ -31,12 +31,12 @@ This repository contains a Jupyter Notebook that predicts California housing pri
    `California house prices.ipynb`  
    Make sure `housing.csv` is in the same directory.
 
-## ðŸ“ Files Included
+## 📁 Files Included
 
-- `California house prices.ipynb` â€” Jupyter notebook
-- `housing.csv` â€” Dataset
-- `requirements.txt` â€” Required Python libraries
+- `California house prices.ipynb` — Jupyter notebook
+- `housing.csv` — Dataset
+- `requirements.txt` — Required Python libraries
 
-## âœ… Verification
+## ✅ Verification
 
 You should see plots and model performance metrics by running all cells in the notebook.
