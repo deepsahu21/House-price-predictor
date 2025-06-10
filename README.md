@@ -1,31 +1,42 @@
-# 🏡 House Price Predictor
+# ðŸ¡ California House Prices â€“ ML Prediction
 
-A machine learning project that predicts California house prices based on various housing and demographic features. This project demonstrates the full data science pipeline, including data preprocessing, exploratory data analysis, feature engineering, model training, and evaluation.
+This repository contains a Jupyter Notebook that predicts California housing prices using machine learning models.
 
-## 📊 Dataset
+## ðŸ”§ Setup Instructions
 
-- **Source:** [California Housing Prices Dataset (Kaggle)](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
-- Includes features such as location, number of rooms, population, and ocean proximity, with the goal of predicting median house values.
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
+   ```
 
-## 🚀 Features
+2. **(Optional but recommended) Create a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate       # Linux/macOS
+   venv\Scripts\activate.bat      # Windows
+   ```
 
-- Exploratory Data Analysis (EDA) with visualizations
-- Data cleaning, handling missing values
-- Feature scaling and one-hot encoding
-- Custom feature engineering (e.g., bedroom-to-room ratio, rooms per household)
-- Trained models:
-  - Linear Regression
-  - Random Forest Regressor
-- Hyperparameter tuning with GridSearchCV
-- Evaluated models using R² score
+3. **Install required libraries**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🛠️ Tech Stack
+4. **Launch Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
 
-- **Language:** Python  
-- **Libraries:** pandas, NumPy, scikit-learn, Matplotlib, Seaborn  
-- **Environment:** Jupyter Notebook
+5. **Open and run:**
+   `California house prices.ipynb`  
+   Make sure `housing.csv` is in the same directory.
 
-## 📈 Model Performance
+## ðŸ“ Files Included
 
-- Achieved **80%+ R² Score** using a tuned Random Forest Regressor with scaled features.
+- `California house prices.ipynb` â€” Jupyter notebook
+- `housing.csv` â€” Dataset
+- `requirements.txt` â€” Required Python libraries
 
+## âœ… Verification
+
+You should see plots and model performance metrics by running all cells in the notebook.
